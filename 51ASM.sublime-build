@@ -1,0 +1,14 @@
+{
+    "cmd": ["a51", "$file"],
+    "file_regex": "\\.asm$",
+    "selector": "source.asm",
+    "variants": [
+        { 
+            "name": "Run",
+            "cmd": ["a51", "$file"],
+            "env": {
+                "PATH": "$PATH:/usr/local/bin"
+            }
+        }
+    ]
+}
