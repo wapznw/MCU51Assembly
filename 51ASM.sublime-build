@@ -5,7 +5,7 @@
     "variants": [
         { 
             "name": "Run",
-            "cmd": ["a51", "$file"],
+            "cmd": ["a51", "-r","$file"],
             "env": {
                 "PATH": "$PATH:/usr/local/bin"
             }
